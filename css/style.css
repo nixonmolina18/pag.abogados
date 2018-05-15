@@ -3,4 +3,26 @@ body {
     font-family: 'Roboto Slab', 'Helvetica Neue';
 }
 
+ul.social-boton {
+  margin-bottom: 0;
+  color: #e9cf8b;
+}
 
+ul.social-boton li a {
+  font-size: 20px;
+  line-height: 40px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #e9cf8b;
+}
+
+ul.social-boton li a:active, ul.social-boton li a:focus, ul.social-boton li a:hover {
+  background-color: #fed136;
+}
