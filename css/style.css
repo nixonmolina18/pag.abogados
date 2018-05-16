@@ -1,5 +1,6 @@
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p{
   font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
+  padding: 0px 0 10px 0;
 }
 body {
   font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
@@ -35,7 +36,7 @@ ul.social-boton li a:active, ul.social-boton li a:focus, ul.social-boton li a:ho
 
 .bg-pages-1{
   background: #f1f1f1;
-  padding: 50px 0;
+  padding: 50px 0 20px 0;
 }
 .bg-pages-2{
   background: #ffffff;
@@ -44,4 +45,17 @@ ul.social-boton li a:active, ul.social-boton li a:focus, ul.social-boton li a:ho
 .title-pages-1{
   text-align: justify;
   padding: 20px;
+}
+
+.img-top{
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+	padding: 170px 0 20px 0;
+	}
+	
+.text-center1 {
+  text-align: center;
+  padding: 50px 0 150px 0;
+  
 }
