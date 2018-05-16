@@ -47,7 +47,6 @@ section h2.section-heading {
 section h3.section-subheading {
   font-size: 16px;
   font-weight: 400;
-  font-style: italic;
   margin-bottom: 75px;
   text-transform: none;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -103,7 +102,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #212529;
+  background-color: #090a0a;
 }
 
 #mainNav .navbar-toggler {
@@ -161,7 +160,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #090a0a;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -597,7 +596,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #212529;
+  background-color: #000000;
   background-repeat: no-repeat;
   background-position: center;
 }
