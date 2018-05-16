@@ -26,3 +26,7 @@ ul.social-boton li a {
 ul.social-boton li a:active, ul.social-boton li a:focus, ul.social-boton li a:hover {
   background-color: #fed136;
 }
+
+text-justify {
+	text-align: justify;
+}
