@@ -1,6 +1,12 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
+}
 body {
-    overflow-x: hidden;
-    font-family: 'Roboto Slab', 'Helvetica Neue';
+  font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
+}
+
+.resposive-img{
+  max-width: 100%;
 }
 
 ul.social-boton {
@@ -25,4 +31,14 @@ ul.social-boton li a {
 
 ul.social-boton li a:active, ul.social-boton li a:focus, ul.social-boton li a:hover {
   background-color: #fed136;
+}
+
+.bg-pages-1{
+  background: #f1f1f1;
+  padding: 50px 0;
+}
+
+.title-pages-1{
+  text-align: justify;
+  padding: 20px;
 }
