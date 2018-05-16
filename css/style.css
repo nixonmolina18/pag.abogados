@@ -37,7 +37,10 @@ ul.social-boton li a:active, ul.social-boton li a:focus, ul.social-boton li a:ho
   background: #f1f1f1;
   padding: 50px 0;
 }
-
+.bg-pages-2{
+  background: #ffffff;
+  padding: 50px 0;
+}
 .title-pages-1{
   text-align: justify;
   padding: 20px;
