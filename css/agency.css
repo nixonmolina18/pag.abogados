@@ -112,7 +112,7 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: #e9cf8b;
   font-family: 'Roboto','Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -135,7 +135,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #e9cf8b;
 }
 
 @media (min-width: 992px) {
