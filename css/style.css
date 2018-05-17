@@ -13,6 +13,7 @@ body {
 ul.social-boton {
   margin-bottom: 0;
   color: #e9cf8b;
+  padding: 5px;
 }
 
 ul.social-boton li a {
