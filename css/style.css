@@ -10,30 +10,17 @@ body {
   max-width: 100%;
 }
 
-ul.social-boton {
+ul.social-boton li{
   margin-bottom: 0;
   color: #e9cf8b;
-  padding: 5px;
+  padding: 15px 15px 0 50px;
+  
 }
 
-ul.social-boton li a {
-  font-size: 20px;
-  line-height: 40px;
-  display: block;
-  width: 40px;
-  height: 40px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  color: white;
-  border-radius: 100%;
-  outline: none;
-  background-color: #e9cf8b;
-}
-
-ul.social-boton li a:active, ul.social-boton li a:focus, ul.social-boton li a:hover {
-  background-color: #fed136;
-}
+h4.sub {
+	color: #e9cf8b;
+	padding-left: 50px;
+	}
 
 .bg-pages-1{
   background: #f1f1f1;
@@ -60,3 +47,11 @@ ul.social-boton li a:active, ul.social-boton li a:focus, ul.social-boton li a:ho
   padding: 50px 0 150px 0;
   
 }
+
+.inline-1{
+	padding-left: 15px;
+	}
+	
+.inline-2{
+	padding-left: 35px;
+	}
