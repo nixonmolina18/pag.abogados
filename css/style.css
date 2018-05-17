@@ -163,3 +163,37 @@ select.form-control1:focus::-ms-value {
   border: solid transparent;
   border-width: 1px 0;
 }
+
+.btn-1 {
+  color: #e9cf8b;
+  background-color: #000000;
+  border-color: #e9cf8b;
+}
+
+.btn-1:hover {
+  color: #e9cf8b;
+  background-color: #000000;
+  border-color: #e9cf8b;
+}
+
+.btn-1:focus, .btn-1.focus {
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+}
+
+.btn-1.disabled, .btn-1:disabled {
+  color: #e9cf8b;
+  background-color: 000000;
+  border-color: #e9cf8b;
+}
+
+.btn-1:not(:disabled):not(.disabled):active, .btn-1:not(:disabled):not(.disabled).active,
+.show > .btn-1.dropdown-toggle {
+  color: #e9cf8b;
+  background-color: #000000;
+  border-color: #e9cf8b;
+}
+
+.btn-1:not(:disabled):not(.disabled):active:focus, .btn-1:not(:disabled):not(.disabled).active:focus,
+.show > .btn-success.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgb(233, 207, 139);
+}
