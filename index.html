@@ -222,7 +222,7 @@ El Registro de una Patente, otorga a su titular la protección y explotación ex
           </div>
         
           <div class="col-md-6 pt50">
-            <form action="mail/contact_me.php" method="POST">
+            <form id="contactForm" name="sentMessage" action="mail/contact_me.php" method="POST">
               <div class="row">
                 <div class="col-md-6 pt20">
                   <div class="form-group">
@@ -240,6 +240,7 @@ El Registro de una Patente, otorga a su titular la protección y explotación ex
                   </div>
                 </div>
                 <div class="col-md-12 pt20 center-res">
+					<div id="success"></div>
                   <button id="sendMessageButton" class="btn btn-search" type="submit">Enviar</button>
                 </div>  
               </div>            
